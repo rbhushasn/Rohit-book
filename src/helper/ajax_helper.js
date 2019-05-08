@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-const BASE_URL = 'http://books-by-suyashkale.herokuapp.com/APIs/';
+const BASE_URL = 'https://books-by-suyashkale.herokuapp.com/APIs/';
 const TOKEN ='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOCIsImlhdCI6MTU1NjUyOTkwMX0.AZNWJNVBDPWcnXitzk6ZP4vJHtBjHBfteX590OQSD8U';
 
 export const ajaxHelper = ({ type, contentType, dataType, url, data, postUrl })=> {
